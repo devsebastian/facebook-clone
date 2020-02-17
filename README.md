@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/devsebastian/facebook-clone/blob/master/LICENSE) 
 [![twitter](https://img.shields.io/badge/Twitter-@iDevSebastian-green.svg)](https://twitter.com/iDevSebastian)
 
+Link: [devsebastian.netlify.com](https://devsebastian.netlify.com/)
+
 a facebook clone created using plain ReactJS. enjoy:)
 
 ![screenshot](src/static/fb.PNG)
