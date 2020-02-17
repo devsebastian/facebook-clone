@@ -1,0 +1,136 @@
+.post {
+    margin: 12px;
+    box-shadow: 0 0 2px 2px rgba(128, 128, 128, 0.075);
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid var(--divider);
+}
+
+.post__header {
+    display: flex;
+    margin: 12px;
+    flex-direction: row;
+}
+
+.post__header__title-wrapper {
+    flex: 1;
+}
+
+.post__header__profile-pic {
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+    margin-right: 12px;
+    overflow: hidden;
+}
+
+.post__header__title {
+    display: flex;
+}
+
+.post__header__sub-title {
+    font-size: 0.9em;
+}
+
+.post__header__title__message {
+    flex: 1;
+}
+
+.post__header__title__username {
+    color: var(--text-primary);
+    margin: auto;
+    font-weight: 700;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.post__header__title__username:hover {
+    text-decoration-line: underline;
+}
+
+.post__header__message {
+    margin: auto;
+    flex: 1;
+}
+
+.post__header__profile-pic img {
+    height: 100%;
+    text-align: justify;
+}
+
+.post__body {
+    word-break: break-all;
+    margin: 0px 12px 12px 12px;
+}
+
+.post__btn {
+    padding: 6px;
+    flex: 1;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+}
+
+.post__btn img {
+    height: 18px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.post__btn:hover {
+    background-color: #f0f0f0;
+}
+
+.post__btn__wrapper {
+    width: 100%;
+    display: flex;
+    border-top: 1px solid var(--divider);
+    padding: 2px 12px;
+    margin-top: 12px;
+}
+
+.post__img-holder{
+    max-height: 500px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.post-img {
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+.post__body__read-more{
+    display: inline-block;
+    color: var(--primary);
+}
+
+.post__comment{
+    border-top: 1px solid var(--divider);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.post_comment_profile_pic{
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin:4px 12px;
+
+}
+
+.post_comment_profile_pic img{
+    height: 100%;
+    width: 100%;
+}
+
+.post__comment__message{
+    flex: 1;
+    margin: 6px;
+    padding-left: 12px;
+    border-radius: 30px;
+    border: 1px solid var(--divider);
+    background-color: #f0f0f0;
+}

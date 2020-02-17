@@ -1,0 +1,49 @@
+.profile-unit {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+}
+
+.profile-photo {
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+
+
+.profile-photo img {
+    width: 100%;
+}
+
+.profile-col {
+    flex: 1;
+    margin-left: 12px;
+}
+
+.profile-name {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.profile-mutual-friend-count {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.profile-unit button{
+    margin-top: 4px;
+    padding: 4px 4px;
+    margin-right: 4px;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: rgb(65, 65, 65);
+    border-radius: 2px;
+    border: 1px solid var(--divider);
+    transition: all 0.2s ease;
+}
+
+.profile-unit button:hover{
+    background-color: #e6e6e6;
+}
