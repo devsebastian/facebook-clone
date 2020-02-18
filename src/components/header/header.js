@@ -1,5 +1,4 @@
 import * as React from 'react'
-import {logo} from '../../assets/logo.svg'
 import './header.css'
 
 export default function Header(props){
@@ -13,10 +12,10 @@ export default function Header(props){
             </svg>
             <input placeholder="Seach" className="header-search"/>
 
-            <div className="header__text-btn"><img src={props.profilePic} />{props.username.split(" ")[0]}</div>
-            <div className="header__text-btn">Home</div>
-            <div className="header__text-btn">Find Friends</div>
-            <div className="header__text-btn">Create</div>
+            <div className="header__text-btn"><img alt="profile-pic" src={props.profilePic} /><span>{props.username.split(" ")[0]}</span></div>
+            <div className="header__text-btn"><span>Home</span></div>
+            <div className="header__text-btn"><span>Find Friends</span></div>
+            <div className="header__text-btn"><span>Create</span></div>
             <div className="spacer"></div>
 
         </div>
