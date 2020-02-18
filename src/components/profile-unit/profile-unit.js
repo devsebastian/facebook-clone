@@ -5,7 +5,7 @@ export default function profileUnit({name, mutualFriendCount, imgUrl}) {
     return (
         <div className='profile-unit'>
             <div className="profile-photo">
-                <img src={imgUrl} />
+                <img alt="profile-pic" src={imgUrl} />
             </div>
             <div className="profile-col">
                 <div className="profile-name">
