@@ -98,6 +98,7 @@
 .post-img {
     width: 100%;
     transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 .post__body__read-more{
@@ -133,4 +134,14 @@
     border-radius: 30px;
     border: 1px solid var(--divider);
     background-color: #f0f0f0;
+}
+
+.image-viewer-wrapper{
+    background-color: rgba(0, 0, 0, 0.247);
+    z-index: 1000;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
