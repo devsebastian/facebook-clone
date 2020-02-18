@@ -31,4 +31,6 @@ in the terminal just run
 npm start
 ```
 ## License
-Copyright (c) 2020 Dev Sebastian
+Copyright (c) 2020 Dev Sebastian.
+
+Licensed under the MIT license.
