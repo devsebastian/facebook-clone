@@ -23,12 +23,18 @@
 }
 
 .header__text-btn{
-    padding: 4px 0 4px 8px;
+    /* padding: 4px 0 4px 8px; */
     height: 100%;
     color: white;
     cursor: pointer;
     border-radius: 4px;
     font-weight: 600;
+}
+
+
+.header__text-btn span{
+    display: inline-block;
+    margin: 4px 0px 4px 8px;
 }
 
 .header__text-btn::after{
@@ -44,5 +50,4 @@
 .header__text-btn img{
     height: 25px;
     vertical-align: middle;
-    margin-right: 6px;
 }
