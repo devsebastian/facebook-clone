@@ -9,6 +9,7 @@
 .news-feed {
     width: 550px;
     min-width: 550px;
+    z-index: 100;
 }
 
 .side-pane {
