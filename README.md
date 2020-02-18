@@ -31,4 +31,4 @@ in the terminal just run
 npm start
 ```
 ## License
-MIT © Dev Sebastian
+Copyright (c) 2020 Dev Sebastian
