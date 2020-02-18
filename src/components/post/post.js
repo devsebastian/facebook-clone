@@ -41,7 +41,7 @@ function PostButton({ title, image }) {
     return (
         <div className="post__btn">
             <img alt={title} src={image} />
-            title
+            {title}
         </div>
     )
 }
