@@ -2,6 +2,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/devsebastian/facebook-clone/issues) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/devsebastian/facebook-clone/blob/master/LICENSE) 
 [![twitter](https://img.shields.io/badge/Twitter-@iDevSebastian-green.svg)](https://twitter.com/iDevSebastian)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c95a6cd-73c3-4a3b-a8d1-6f9d4a7afa54/deploy-status)](https://app.netlify.com/sites/devsebastian/deploys)
 
 Link: [fbclone.netlify.com](https://fbclone.netlify.com/)
 
